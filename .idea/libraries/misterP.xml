@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="misterP">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../MisterP/out/artifacts/misterP/misterP.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
