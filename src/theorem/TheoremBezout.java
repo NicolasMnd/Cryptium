@@ -31,7 +31,7 @@ public class TheoremBezout {
     }
 
     public boolean isTheoremValid() {
-        return inversion == -1;
+        return inversion != -1;
     }
 
     private void calculate() {
@@ -74,9 +74,9 @@ public class TheoremBezout {
 
 
 
-            System.out.println(": " + vec1.getFormat());
-            System.out.println(": " + vec2.getFormat());
-            System.out.println("\n");
+            //System.out.println(": " + vec1.getFormat());
+            //System.out.println(": " + vec2.getFormat());
+            //System.out.println("\n");
 
         }
 

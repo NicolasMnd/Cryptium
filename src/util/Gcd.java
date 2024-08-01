@@ -1,5 +1,7 @@
 package util;
 
+import theorem.TheoremEuclides;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,6 +51,10 @@ public class Gcd {
         }
 
         return gcd;
+    }
+
+    public int calcGcd(int a, int b) {
+        return new TheoremEuclides(a, b).getGcd();
     }
 
 }
